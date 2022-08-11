@@ -1,5 +1,144 @@
 # CodigoWason
 Codigo
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wason</title>
+    <link rel="stylesheet" href="Wason.css">
+    <link rel="stylesheet" href="normalize.css">
+     <script src="https://kit.fontawesome.com/a4a17d1add.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="cont-border-header">
+            <div class="border-header"> </div>
+        </div>
+        <img src="Fotos/Cabezera3.svg" alt="" class="img-header-mobile">
+        <img src="Fotos/CabeceraPrincipal.svg" alt="" class="img-desktop">
+
+        <div class="conteiner-header-principal">
+            <div class="cont-nav-desktop">
+
+                <div class="img-title-desktop">
+                    <img src="Fotos/Title-Desktop.svg" alt="" class="img-title-desktop scale-in-ver-top ">
+                </div>
+
+                <nav class="nav-desktop ">
+                    <a href="" class="link-desktop "><i class="fa-solid fa-house icon-mobile"></i>Inicio</a>
+                    <a href="" class="link-desktop  "><i class="fa-solid fa-scissors icon-mobile"></i>Servicios</a>
+                    <a href="" class="link-desktop"><i class="fa-solid fa-address-book icon-mobile"></i>Contacto</a>
+                    <a href="" class="link-desktop"><i class="fa-solid fa-photo-film icon-mobile"></i>Galéria</a>
+                </nav>            
+            </div>
+
+            <div class="cont-title-header ">                
+                <img src="Fotos/BARBERSHOP WASON.svg" alt="" class="logo-wason-img">
+            </div>
+
+            <div class="cont-text-btn-header">
+
+                <div class="cont-txt-header">
+                    <div class="img-txt-barbero">
+                         <img src="Fotos/No hay hombres feos, solo hombres que no han conocido el arte de un buen barbero..svg" alt="">
+                    </div>
+                </div>
+
+                <div class="cont-button-header">
+                   <div class="cont-button-mobile-1 slide-in-blurred-top "> 
+                        <a href="#cortes" class="button-1 button-mobile cortina-relative-button ">
+                            <img src="Fotos/Button-FINO-WHITE.svg" alt="" class="button-mobile" >
+                        </a>
+                   </div>
+
+                   <a href="#contacto" class="button-2 slide-in-blurred-top cortina-relative-button ">
+                    <img src="Fotos/ImagenButtonFinoREd.svg" class="button-no-mobile" alt="">
+                   </a>
+                </div>
+                    
+            </div>
+
+        </div>
+
+        <img src="Fotos/Burger-menu (convert.io).webp" alt="" class="icon-burger-mobile  shadow-pop-br " id="icon-burger-mobile">
+        
+        <div class="nav-mobile" id="mobile-nav">
+            <div class="cont-nav-mobile" id="cont-nav-mobile">
+                <a href="" class="link-nav-mobile border-bottom-mobile red " id="link-nav"><i class="fa-solid fa-house icon-mobile"></i>Inicio</a>
+                <a href="Servicios.html" class="link-nav-mobile border-bottom-mobile white" id="link-nav"><i class="fa-solid fa-scissors icon-mobile"></i>Servicios</a>
+                <a href="#contacto" class="link-nav-mobile border-bottom-mobile white" id="link-nav"><i class="fa-solid fa-address-book icon-mobile"></i>Contacto</a>
+                <a href="" class="link-nav-mobile red" id="link-nav"><i class="fa-solid fa-photo-film icon-mobile"></i>Galéria</a>          
+            </div>
+        </div>
+    </header>
+    
+    <article class="article-barber-wason">
+
+        <div class="conteiner-barber-wason">
+
+            <div class="cont-title-barber-wason">
+                <h1 class="title-wason" >Somos The Barber Wason</h1>
+            </div>
+
+            <div class="cont-text-barber">
+                <p class="text-barber">En esta barbería encontrarás un amigo con quién charlar, un profesional en quién confiar y alguien que se esmerará porque luzcas genial. 3  en 1.      Y recuerda la vida es perfecta cuando conoces al barbero correcto.  
+                </p>
+            </div>
+
+            <div class="cont-img-barber">
+                <img src="Fotos/Heider.webp" alt="" class="img-barber">
+            </div>
+        </div>
+        
+    </article>
+
+    <section class="section-horario-wason">
+        <article class="cont-title-horario cont-horarios">
+           
+                 <h1 class="title-horario">Horarios de Atención</h1>
+      
+        </article>
+        <article class="cont-lunes-sabado cont-horarios">
+                <div class="lunes-sabado ">
+                    <h1 class="text-lunes-sabado">Lunes - Sábados</h1>
+                    <p class="text-horario-ls" >10:00 AM - 10:00 PM</p>
+                </div>
+        </article>
+        <article class="cont-domingo cont-horarios">
+                <div class="domingo ">
+                    <h1 class="text-domingo">Domingos</h1>
+                    <p class="text-horario-domingo" >
+                        11:00 AM - 9:00 PM</p>
+                    </p>
+                </div>
+        </article>
+    </section>
+
+
+
+
+<!-- Logo de whassap fixed -->
+    <article class="fixed-whassap">
+        <a href="https://api.whatsapp.com/send?phone=51931022090&text=Hola!%20Barberia%20Wason%20Quiero%20Un Servicio de Corte!" class="link-whassap-fixed">
+            <img src="https://www.svgrepo.com/show/158412/whatsapp.svg" alt="" class="img-wassap">
+        </a>
+    </article>   
+
+    <article class="fixed-facebook">
+        <a href="" class="link-facebook-fixed">
+            <img src="Fotos/Facebook.svg" alt="" class="img-fb-fixed">
+        </a>
+    </article>
+
+  
+
+  
+<script src="Wason.js"></script>
+</body>
+</html>
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Condiment&family=Corinthia:wght@400;700&family=Jacques+Francois&family=Jacques+Francois+Shadow&family=Jost&family=Kumbh+Sans:wght@300;400;500;600&family=Merienda+One&family=Merienda:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto&family=Uchen&display=swap');
